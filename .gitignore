@@ -1,0 +1,8 @@
+.obsidian/workspace*
+.trash/
+Combat/State.md
+
+# Reference PDFs stay local — commercial/third-party material, not ours to redistribute.
+# Drop your own PDFs in Reference/; they will never be committed.
+Reference/**
+!Reference/README.md
