@@ -22,7 +22,6 @@ Tendens til at overfokusere på den magt han kan opnå og blive ensporet:
 
 - **Overseer's Command Rod** — a short black staff with ticking gears. Once per long rest it
   can issue a `Command` (DC 15) to a Custodian construct. Glows faintly blue near machinery.
-- **Chronos-Tandhjul** — recently acquired. Undefined.
 
 ## Story hooks
 

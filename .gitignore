@@ -2,6 +2,10 @@
 .trash/
 Combat/State.md
 
+# Local AI-tooling config. Personal to this machine, and its environmentVariables
+# fields are where an API key would end up. Keep it out of a public repo.
+.claudian/
+
 # Reference PDFs stay local — commercial/third-party material, not ours to redistribute.
 # Drop your own PDFs in Reference/; they will never be committed.
 Reference/**

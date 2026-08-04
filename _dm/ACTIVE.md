@@ -8,6 +8,14 @@ party_level: 11
 
 # Current state
 
+## Claude — do this first
+
+Standing orders for the next run. Put anything you want acted on here, not in a checkbox
+further down. I read this section before anything else and report back before writing.
+Strike a line once it is done.
+
+- *(nothing pending)*
+
 ## Where the party is
 
 Temporal Isolation Labs, deep inside [[Ironhold Bastille]], reached by falling through
@@ -23,12 +31,20 @@ Planar Seed fight they lost — see [[Planar Seed vs Planar Anchor]].
 
 ## Open design work
 
-- [x] Define each PC's lever — done. **Anchor Charge** mechanic plus five levers and a
-      full discovery layer, see [[Temporal Isolation Labs]].
-- [x] Houserule interview — done, see `_dm/HOUSERULES.md`.
 - [ ] Malcer's phase structure on top of the Anchor Charge track. Not written yet.
-- [ ] Victor's **Chronos-Tandhjul** has no defined mechanics. (Note from DM: This does not exist, delete on first claude code run in all files)
-- [ ] Fill in `ac:` for all five PCs so the combat tracker can read it.
+
+## Settled
+
+Kept for the pointers, not for review.
+
+- **Anchor Charge** — the mechanic, five PC levers and the discovery layer.
+  See [[Temporal Isolation Labs]].
+- **Houserule interview** — see `_dm/HOUSERULES.md`.
+
+### Updates
+
+**2026-08-04** — Victor's *Chronos-Tandhjul* removed on DM instruction; it was never a real
+item. Struck from `PCs/Victor Clawmantle.md`, `_dm/HOUSERULES.md` and this file.
 
 ## Live threads elsewhere
 

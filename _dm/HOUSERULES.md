@@ -87,4 +87,3 @@ encumbrance (not tracked in practice), monster critical hits.
 ## Still open
 
 - Whether the orange-district construct fight resumes or resolves offscreen.
-- Victor's **Chronos-Tandhjul** has no defined mechanics yet.
