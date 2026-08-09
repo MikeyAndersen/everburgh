@@ -50,7 +50,8 @@ item. Struck from `PCs/Victor Clawmantle.md`, `_dm/HOUSERULES.md` and this file.
 
 - Ironhold constructs are loose in the **orange district** of Everburgh after being
   reassembled. Initiative was rolled and the fight is partially resolved. Unclear whether
-  this resumes or resolves offscreen. Currently Ironhold bastille is invading everburgh and the party is trying to step them. 
+  this resumes or resolves offscreen.
+- The Chain of the Real still expect the memory cipher from [[Keith]].
 
 ## Post-session command
 

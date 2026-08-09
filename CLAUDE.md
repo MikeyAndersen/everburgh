@@ -31,7 +31,7 @@ If the DM says a session is running, also read `_dm/ENGAGEMENT.md` and `_dm/ACTI
   **Domain**, reached by portal. The sun is fixed at 15:00. The day is measured in 12 **Gongs**.
 - **Ironhold Bastille** is a floating hexagonal citadel half in Mechanus, half in the Material
   Plane. Built by Archmage Malcer Tharanis. Rigid order, imposed as a parasite on Everburgh's
-  chaos. It is currently collapsing along a Planar Rift between the two halves.
+  chaos. It is currently collapsing along a Planar Revne between the two halves.
 - **Planar Seed vs Planar Anchor** — these are different things and the distinction matters:
   - The **Planar Seed** is the *brain*. It is what the party faced in the fight they **lost**.
   - The **Planar Anchor** is the *heart*. It sucks harvested dream energy inward. It is the

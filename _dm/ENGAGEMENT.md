@@ -9,8 +9,8 @@ This file overrides normal verbosity. Read `_dm/ACTIVE.md` for where the party a
 
 ## Speed over completeness
 
-- The DM is reading this with players waiting.
-- Answer the question asked. Do not add context, caveats, or alternatives unless asked or if its really meaningful.
+- **Two sentences, not two paragraphs.** The DM is reading this with players waiting.
+- Answer the question asked. Do not add context, caveats, or alternatives unless asked.
 - No preamble. No "great question". No summarising what was just asked.
 - If something needs a longer answer, give the short answer first and offer the long one.
 
@@ -33,7 +33,7 @@ When asked for an NPC, a room, a complication, or a monster on the spot:
 - Match the tone of the current location note.
 - Write it to the right folder with `status: unverified` and tell the DM in one line.
 - Give the DM only what he needs at the table right now — for a monster that is
-  the name, AC, and HP. Everything else goes in the file to be finished later. 
+  the name, AC, and HP. Everything else goes in the file.
 
 ## Never, during a session
 

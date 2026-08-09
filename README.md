@@ -42,6 +42,26 @@ format you were already keeping by hand, then resets the tracker.
 
 At the table: *"Read `_dm/` — we're running."*
 
+## Claudian (Obsidian sidebar)
+
+Paste the block in `_dm/SYSTEM_PROMPT.md` into Claudian's custom system prompt field.
+It is a router, not a knowledge base — it points at files so it does not go stale.
+
+Skills live in `.claude/skills/<name>/SKILL.md` (Agent Skills spec). Invoke with `$` or let
+them auto-trigger. They are committed to git, unlike `.claudian/` which is ignored.
+
+| Skill | When |
+|-------|------|
+| `/session-start` | before a session — regenerates `_dm/ACTIVE.md` |
+| `/session-end` | after a session — updates every file the session touched |
+| `/recap` | Danish recap to read aloud at the table |
+| `/rule` | rules lookup — **auto-invokes** on any rules question |
+| `/monster` | build a creature for the fight in progress — **auto-invokes** |
+| `/npc` | improvise a named NPC — **auto-invokes** |
+
+`session-start`, `session-end` and `recap` are marked `disable-model-invocation` so they only
+run when you type them. You never want a cleanup pass firing by accident.
+
 ## Language
 
 Story, narration and descriptions in **Danish**. Stats, rules, conditions, spell names and
