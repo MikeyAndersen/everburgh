@@ -10,3 +10,11 @@ Combat/State.md
 # Drop your own PDFs in Reference/; they will never be committed.
 Reference/**
 !Reference/README.md
+
+# Same principle as Reference/ above: verbatim text from the DM's own PHB.
+# Rules/SRD/ is CC-BY-4.0 and safe to publish; this table is Product Identity.
+# Flip this line if the repo is private.
+Rules/Wild Magic Surge.md
+
+# Transient backups made before patching the tracker.
+_scripts/*.bak

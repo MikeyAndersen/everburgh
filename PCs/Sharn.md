@@ -59,3 +59,38 @@ Magic Surge table on **every** spell cast.
 
 **Nøglen eller Bomben.** Because his glyph is tuned directly into the Planar Seed, Sharn is
 both the prison's ultimate key and a potential detonator.
+
+> [!danger] DM-only — 2026-08-23 — `status: unverified`
+> **Patronen er en portalherre.** Se [[The Portal Lords]].
+>
+> Alt på Sharns ark peger allerede den vej, og intet af det skal ændres:
+> bundet **uden samtykke**, vågnede med et billede af **Everburgh** brændt fast i tankerne,
+> glyphen bygget **kunstigt** og tunet ind i fængslets system **udefra**. Det er ikke en
+> patron der giver magt mod en tjeneste. Det er en **rekruttering** og en **aflytning** —
+> en portalherres kanal ind i det ene sted deres fjende ikke kunne nå.
+>
+> Konsekvens: `Unanchored Mind` og `Patronens Invasion` er ikke tilfældig kaosmagi.
+> Det er nogen der **kigger med**.
+>
+> Ikke afsløret. Sharns spiller ved intet. Dette er DM'ens ramme, ikke afgjort canon —
+> godkend eller forkast før det bliver spillet.
+
+## Updates
+
+**2026-10-26 — han lagde Malcer ned, og rullede 75 på surge-tabellen.**
+
+**Han dræbte [[Archmage Malcer Tharanis]] første gang.** Det var gruppens første direkte
+bevis på `Planar Anchor`: Malcer opløste sig i lys, blev suget ind i krystallen og vendte
+tilbage på 89 HP. Skaden var altså ikke problemet — track'et var.
+
+**Wild Magic Surge 75–76 rullet.** Bright light i 30 ft radius i 1 minut; alt der ender sin
+tur inden for 5 ft af ham er `Blinded` til slutningen af sin næste tur. Fuld tabel og begge
+hans houserules ligger nu i [[Rules/Wild Magic Surge.md]].
+
+- Det er et **våben**, ikke en dud — en Custodian i melee med ham var `Blinded` hver runde.
+- **Det rammer allies.** Står han inden for 5 ft af pladen, er [[Merith Lonehunter]]
+  `Blinded` hver runde og kan ikke gå væk uden at bryde proppen.
+- Malcer rammes aldrig: `Order's Edge` er ranged 120 ft, så han ender ikke sin tur tæt på nogen.
+
+**Hans fallback-løftestang er stadig opbrugt** — den rå glyph ind i krystallen var engangs
+og blev brugt 2026-08-24. Fra nu er han ren skadeskaster, medmindre han finder på noget nyt.

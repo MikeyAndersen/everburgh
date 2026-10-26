@@ -16,3 +16,13 @@ alt andet er **Domæner**, som nås gennem portaler.
 
 Ironhold-konstrukter slap løs her efter at være blevet sat sammen igen. Kampen er delvist
 kørt — se `Encounters/`.
+
+> [!danger] DM-only genlæsning — 2026-08-23
+> Konstrukterne var **ikke sluppet løs**. De var **på mål**.
+>
+> Den orange bydel er sædet for [[The Portal Lords]], og Ironhold-styrken var et angreb,
+> ikke et udbrud. Gruppen slog det tilbage. **Gruppen har allerede kæmpet på den forkerte
+> side én gang uden at vide det.**
+>
+> Dette kræver ingen retcon — intet af det spillede ændres, kun betydningen. Sig det ikke
+> højt før kampagnen selv afslører det. `status: unverified`.

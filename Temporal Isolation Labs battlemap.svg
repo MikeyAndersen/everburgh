@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="980" viewBox="0 0 1420 980" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="crystalPull" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="60%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#2a0a4a"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#1f2937" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1420" height="980" fill="#0d1117"/>
+
+  <!-- ================= TITLE ================= -->
+  <text x="40" y="42" fill="#e5e7eb" font-size="26" font-weight="700">TEMPORAL ISOLATION LABS — Planar Anchor</text>
+  <text x="40" y="68" fill="#9ca3af" font-size="14">1 felt = 5 ft · kammeret er 130 × 100 ft · loftet forsvinder i mørke</text>
+
+  <!-- ================= FLOOR ================= -->
+  <rect x="40" y="100" width="1040" height="800" fill="#12181f"/>
+  <rect x="40" y="100" width="1040" height="800" fill="url(#grid)"/>
+
+  <!-- conduits: tanks feed the crystal -->
+  <g stroke="#5eead4" stroke-width="2" opacity="0.28">
+    <line x1="280" y1="120" x2="560" y2="500"/>
+    <line x1="840" y1="120" x2="560" y2="500"/>
+    <line x1="60"  y1="380" x2="560" y2="500"/>
+    <line x1="60"  y1="700" x2="560" y2="500"/>
+    <line x1="1060" y1="380" x2="560" y2="500"/>
+    <line x1="1060" y1="700" x2="560" y2="500"/>
+  </g>
+
+  <!-- ================= TANK BANKS ================= -->
+  <g>
+    <rect x="160" y="100" width="240" height="40" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="280" y="126" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle">BANK A</text>
+
+    <rect x="720" y="100" width="240" height="40" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="840" y="126" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle">BANK B</text>
+
+    <rect x="40" y="260" width="40" height="240" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="60" y="386" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle" transform="rotate(-90 60 380)">BANK C</text>
+
+    <rect x="40" y="580" width="40" height="240" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="60" y="706" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle" transform="rotate(-90 60 700)">BANK D</text>
+
+    <rect x="1040" y="260" width="40" height="240" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="1060" y="386" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle" transform="rotate(90 1060 380)">BANK E</text>
+
+    <rect x="1040" y="580" width="40" height="240" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="1060" y="706" fill="#ccfbf1" font-size="15" font-weight="700" text-anchor="middle" transform="rotate(90 1060 700)">BANK F</text>
+  </g>
+
+  <!-- ================= WALLS ================= -->
+  <rect x="40" y="100" width="1040" height="800" fill="none" stroke="#6b7280" stroke-width="5"/>
+
+  <!-- ================= CRYSTAL ================= -->
+  <g filter="url(#softglow)">
+    <polygon points="560,440 620,500 560,560 500,500" fill="url(#crystalPull)" stroke="#a855f7" stroke-width="3"/>
+  </g>
+  <text x="560" y="418" fill="#d8b4fe" font-size="16" font-weight="700" text-anchor="middle">PLANAR ANCHOR</text>
+  <text x="560" y="590" fill="#9ca3af" font-size="12" text-anchor="middle">svæver 10 ft over gulvet</text>
+
+  <!-- ================= MERITH'S PLATE ================= -->
+  <g filter="url(#glow)">
+    <rect x="360" y="480" width="40" height="40" fill="#78350f" stroke="#f59e0b" stroke-width="3"/>
+  </g>
+  <text x="380" y="470" fill="#fcd34d" font-size="13" font-weight="700" text-anchor="middle">PLADEN</text>
+  <text x="380" y="540" fill="#9ca3af" font-size="11" text-anchor="middle">conduit-knudepunkt</text>
+  <line x1="400" y1="500" x2="500" y2="500" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="450" y="494" fill="#fcd34d" font-size="11" text-anchor="middle">20 ft</text>
+
+  <!-- ================= COMBATANTS ================= -->
+  <g>
+    <circle cx="540" cy="620" r="17" fill="#dc2626" stroke="#fecaca" stroke-width="2"/>
+    <text x="540" y="626" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">M</text>
+    <text x="540" y="660" fill="#fca5a5" font-size="12" text-anchor="middle">Malcer</text>
+
+    <circle cx="460" cy="620" r="15" fill="#b45309" stroke="#fde68a" stroke-width="2"/>
+    <text x="460" y="626" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">C1</text>
+    <text x="460" y="654" fill="#fcd34d" font-size="11" text-anchor="middle">Ananas</text>
+
+    <circle cx="660" cy="620" r="15" fill="#b45309" stroke="#fde68a" stroke-width="2"/>
+    <text x="660" y="626" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">C2</text>
+    <text x="660" y="654" fill="#fcd34d" font-size="11" text-anchor="middle">Cirkeline</text>
+  </g>
+
+  <!-- ================= ENTRY ================= -->
+  <g>
+    <rect x="480" y="820" width="160" height="80" fill="#374151" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="560" y="856" fill="#e5e7eb" font-size="14" font-weight="700" text-anchor="middle">GRUPPEN</text>
+    <text x="560" y="876" fill="#9ca3af" font-size="11" text-anchor="middle">nedslag fra Gearshaft</text>
+  </g>
+
+  <!-- distance marker crystal -> party -->
+  <line x1="560" y1="820" x2="560" y2="570" stroke="#4b5563" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="588" y="700" fill="#6b7280" font-size="11">ca. 40 ft</text>
+
+  <!-- ================= LEGEND ================= -->
+  <g>
+    <rect x="1110" y="100" width="280" height="800" fill="#111827" stroke="#374151" stroke-width="2" rx="8"/>
+    <text x="1130" y="132" fill="#e5e7eb" font-size="16" font-weight="700">LEGENDE</text>
+
+    <rect x="1130" y="152" width="24" height="16" fill="#0f766e" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="1166" y="165" fill="#ccfbf1" font-size="13" font-weight="700">Decoy-tanke</text>
+    <text x="1130" y="186" fill="#9ca3af" font-size="12">Seks banker, A–F. Chang skal</text>
+    <text x="1130" y="203" fill="#9ca3af" font-size="12">være inden for 30 ft (6 felter)</text>
+    <text x="1130" y="220" fill="#9ca3af" font-size="12">af en <tspan font-weight="700" fill="#e5e7eb">ubrudt</tspan> bank. −2 Charge.</text>
+
+    <polygon points="1142,252 1156,266 1142,280 1128,266" fill="url(#crystalPull)" stroke="#a855f7" stroke-width="2"/>
+    <text x="1166" y="271" fill="#d8b4fe" font-size="13" font-weight="700">Planar Anchor</text>
+    <text x="1130" y="298" fill="#9ca3af" font-size="12">Svæver. Kan ikke rammes af</text>
+    <text x="1130" y="315" fill="#9ca3af" font-size="12">melee fra gulvet uden at klatre</text>
+    <text x="1130" y="332" fill="#9ca3af" font-size="12">eller flyve. Sharn rammer den</text>
+    <text x="1130" y="349" fill="#9ca3af" font-size="12">med magi på afstand.</text>
+
+    <rect x="1128" y="374" width="24" height="24" fill="#78350f" stroke="#f59e0b" stroke-width="3"/>
+    <text x="1166" y="391" fill="#fcd34d" font-size="13" font-weight="700">Pladen — Meriths prop</text>
+    <text x="1130" y="420" fill="#9ca3af" font-size="12">20 ft fra krystallen. Står han</text>
+    <text x="1130" y="437" fill="#9ca3af" font-size="12">her og flytter sig ikke <tspan font-weight="700" fill="#e5e7eb">frivilligt</tspan>,</text>
+    <text x="1130" y="454" fill="#9ca3af" font-size="12">regenererer Charge ikke.</text>
+    <text x="1130" y="471" fill="#9ca3af" font-size="12">Han må angribe frit.</text>
+
+    <circle cx="1140" cy="500" r="13" fill="#dc2626" stroke="#fecaca" stroke-width="2"/>
+    <text x="1166" y="505" fill="#fca5a5" font-size="13" font-weight="700">Malcer · AC 18 · HP 178</text>
+
+    <circle cx="1140" cy="534" r="12" fill="#b45309" stroke="#fde68a" stroke-width="2"/>
+    <text x="1166" y="539" fill="#fcd34d" font-size="13" font-weight="700">Custodians · AC 18 · HP 92</text>
+    <text x="1130" y="562" fill="#9ca3af" font-size="12">Fly 30 ft (hover). De rører</text>
+    <text x="1130" y="579" fill="#9ca3af" font-size="12">ikke gulvet.</text>
+
+    <rect x="1128" y="600" width="24" height="16" fill="#374151" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="1166" y="613" fill="#e5e7eb" font-size="13" font-weight="700">Gruppens startfelt</text>
+
+    <line x1="1128" y1="642" x2="1152" y2="642" stroke="#5eead4" stroke-width="3" opacity="0.5"/>
+    <text x="1166" y="647" fill="#5eead4" font-size="13" font-weight="700">Conduits</text>
+    <text x="1130" y="670" fill="#9ca3af" font-size="12">Blegt lys der løber indad.</text>
+    <text x="1130" y="687" fill="#9ca3af" font-size="12">Ren stemning — ingen mekanik,</text>
+    <text x="1130" y="704" fill="#9ca3af" font-size="12">men det er dét Victor ser.</text>
+
+    <line x1="1130" y1="726" x2="1370" y2="726" stroke="#374151" stroke-width="2"/>
+
+    <text x="1130" y="752" fill="#e5e7eb" font-size="14" font-weight="700">TERRÆN</text>
+    <text x="1130" y="776" fill="#9ca3af" font-size="12">Gulvet er glat metal. Ingen</text>
+    <text x="1130" y="793" fill="#9ca3af" font-size="12">cover i midten — det er med vilje.</text>
+    <text x="1130" y="817" fill="#9ca3af" font-size="12"><tspan font-weight="700" fill="#e5e7eb">Fase 2 · Magnetic Pull:</tspan> alt</text>
+    <text x="1130" y="834" fill="#9ca3af" font-size="12">trækkes 10 ft mod krystallen.</text>
+    <text x="1130" y="858" fill="#9ca3af" font-size="12"><tspan font-weight="700" fill="#e5e7eb">Fase 3 · brudte tanke</tspan> bliver</text>
+    <text x="1130" y="875" fill="#9ca3af" font-size="12">difficult terrain — glas og væske.</text>
+  </g>
+
+  <!-- scale bar -->
+  <g>
+    <rect x="40" y="922" width="160" height="10" fill="none" stroke="#6b7280" stroke-width="2"/>
+    <line x1="80" y1="922" x2="80" y2="932" stroke="#6b7280" stroke-width="2"/>
+    <line x1="120" y1="922" x2="120" y2="932" stroke="#6b7280" stroke-width="2"/>
+    <line x1="160" y1="922" x2="160" y2="932" stroke="#6b7280" stroke-width="2"/>
+    <text x="210" y="932" fill="#9ca3af" font-size="13">20 ft (4 felter)</text>
+  </g>
+</svg>

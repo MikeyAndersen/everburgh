@@ -1,0 +1,92 @@
+/* Ironhold combat tracker — loaded automatically alongside _scripts/tracker.js */
+
+.itk { font-size: 0.92em; }
+
+.itk-bar,
+.itk-add,
+.itk-foot,
+.itk-counter-add {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.6em 0;
+}
+
+.itk-btn {
+  cursor: pointer;
+  padding: 0.25em 0.7em;
+  border-radius: 5px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+.itk-btn:hover { background: var(--background-modifier-hover); }
+.itk-primary { background: var(--interactive-accent); color: var(--text-on-accent); border-color: transparent; }
+.itk-danger { color: var(--text-error); }
+.itk-ghost { border: none; background: none; opacity: 0.5; padding: 0.1em 0.4em; }
+.itk-ghost:hover { opacity: 1; background: none; }
+
+.itk-round {
+  font-weight: 600;
+  padding: 0.2em 0.6em;
+  border-radius: 5px;
+  background: var(--background-modifier-border);
+}
+
+.itk-name { flex: 1 1 12em; }
+.itk-addname { flex: 1 1 14em; }
+.itk-num { width: 4.5em; }
+.itk-cond { width: 100%; min-width: 8em; }
+.itk-dmg { border-color: var(--text-error); }
+
+.itk-table { width: 100%; border-collapse: collapse; margin: 0.6em 0; }
+.itk-table th {
+  text-align: left;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+.itk-table td { padding: 0.25em 0.35em; border-bottom: 1px solid var(--background-modifier-border); }
+
+.itk-active { background: var(--background-modifier-success); }
+.itk-active .itk-cname { font-weight: 700; }
+.itk-down { opacity: 0.4; text-decoration: line-through; }
+.itk-turn { width: 1.2em; color: var(--interactive-accent); }
+
+.itk-cname { font-weight: 500; }
+.itk-tag {
+  font-size: 0.7em;
+  margin-left: 0.4em;
+  padding: 0 0.35em;
+  border-radius: 3px;
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+.itk-dim { opacity: 0.55; font-size: 0.85em; }
+.itk-hp { white-space: nowrap; }
+
+.itk-counters { display: flex; gap: 0.8em; flex-wrap: wrap; margin: 0.6em 0; }
+.itk-counter {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 7px;
+  padding: 0.45em 0.7em;
+}
+.itk-counter-label { font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.65; }
+.itk-counter-row { display: flex; gap: 0.35em; align-items: center; margin-top: 0.2em; }
+.itk-counter-val { font-weight: 700; font-size: 1.1em; min-width: 3.5em; text-align: center; }
+.itk-pips { letter-spacing: 0.12em; margin: 0.15em 0; }
+.itk-pip.on { color: var(--interactive-accent); }
+.itk-pip.off { opacity: 0.2; }
+
+.itk-error {
+  border: 1px solid var(--text-error);
+  border-radius: 7px;
+  padding: 0.8em;
+  background: var(--background-secondary);
+}
+.itk-error pre { white-space: pre-wrap; font-size: 0.8em; opacity: 0.8; }
+
+/* keep the destructive counter-delete away from the +/- buttons */
+.itk-far { margin-left: 1.4em; }
